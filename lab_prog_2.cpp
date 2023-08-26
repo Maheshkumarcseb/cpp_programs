@@ -5,7 +5,7 @@ int main()
     int n,isum=0,i;
     cout<<"enter the value of n ";
     cin>>n;
-    for(i=1;i<=n;i++)
+    for(i=1;i<=n;i++)//sum of 1 to nth number
     {
         isum+=i;
     }
