@@ -24,7 +24,7 @@ int main()
         {
             if(values[i]<values[j])
             {
-                int temp=values[i];
+                int temp=values[i];//swapping technique
                 values[i]=values[j];
                 values[j]=temp;
             }
