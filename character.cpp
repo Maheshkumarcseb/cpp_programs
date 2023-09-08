@@ -1,3 +1,4 @@
+// 0 to 255 character
 #include<iostream>
 #include<fstream>
 using namespace std;
