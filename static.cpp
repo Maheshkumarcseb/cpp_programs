@@ -1,4 +1,6 @@
+
 //program for static data member and static function
+// In this program we can use data member and function of a class without creating an object.
 #include<iostream>
 using namespace std;
 class mystatic
@@ -25,8 +27,8 @@ int main()
     mystatic::myfunc(100);         //calling function without object 
     m1.show();
     mystatic m2;
-    m2.myfunc(300);        //calling myfunc with the help of object and passing the value 300 to the function
+    m2.myfunc(300);        //calling myfunc with the help of an object and passing the value 300 to the function
     m1.show();
-    m2.show();             //calling show function,it will display the value of a
+    m2.show();             //calling show function, it will display the value of a
     return 0;
 }
