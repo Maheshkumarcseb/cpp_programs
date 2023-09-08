@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-void add(int ,int);
+void add(int ,int);//function overloading
 void add(double ,double);
 int main()
 {
